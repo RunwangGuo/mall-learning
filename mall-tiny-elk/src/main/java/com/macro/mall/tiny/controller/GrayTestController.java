@@ -14,6 +14,6 @@ public class GrayTestController {
     @RequestMapping(value = "", method = RequestMethod.GET)
     @ResponseBody
     public String grayTest() {
-        return "Gray Test - Version A";
+        return "Gray Test - Version B";
     }
 }
